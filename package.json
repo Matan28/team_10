@@ -1,0 +1,39 @@
+{
+  "name": "team_10",
+  "version": "1.0.0",
+  "description": "sce website\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Ddigital store website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "mocha test/*.spec.js --color",
+    "lint": "eslint src/*.js --color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Matan28/team_10.git"
+  },
+  "author": "Matan, Liz, Aviad, Michael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matan28/team_10/issues"
+  },
+  "homepage": "https://github.com/Matan28/team_10#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "mocha": "^7.1.1",
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
