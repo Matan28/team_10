@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "pName": "Bamba",
+      "Brand": "OSEM",
+      "Category": "Sneakes",
+      "Sku": "1111",
+      "Price": "3.40",
+      "totalQuantity": "1000"
+    },
+    {
+      "pName": "Bamba",
+      "Brand": "OSEM",
+      "Category": "Sneakes",
+      "Sku": "1111",
+      "Price": "3.40",
+      "totalQuantity": "1000"
+    },
+    {
+      "pName": "Bamba",
+      "Brand": "OSEM",
+      "Category": "Sneakes",
+      "Sku": "1111",
+      "Price": "3.40",
+      "totalQuantity": "1000"
+    },
+    {
+      "pName": "Bamba",
+      "Brand": "OSEM",
+      "Category": "Sneakes",
+      "Sku": "1111",
+      "Price": "3.40",
+      "totalQuantity": "1000"
+    }
+  ]
+}
