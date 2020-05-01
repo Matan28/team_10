@@ -14,11 +14,7 @@ firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 var database = firebase.database();
 
-function myfunction() {
-  var quantity = document.getElementById("quantityInput").value();
-  alert(quantity);
-}
-
+//table search/filter function
 function tableFilter() {
   // Declare variables
   var input = document.getElementById("search");
@@ -84,34 +80,33 @@ $(document).on("click", ".btn", function () {
   var Price = $(this).closest("tr").find(".price").html();
   var Sku = $(this).closest("tr").find(".squ").html();
   var pName = $(this).closest("tr").find(".pName").html();
-  var quantity = $(this).closest("tr").find("#quantityInput").html();
+  var quantity = $(this).closest("tr").find("#quantityInput").val();
 
   var newClientKey = database.ref().child("Cart").push().key;
-  database.ref("Cart/" + newClientKey + "/Brand").set(Brand);
-  database.ref("Cart/" + newClientKey + "/Category").set(Category);
-  database.ref("Cart/" + newClientKey + "/Sku").set(Sku);
-  database.ref("Cart/" + newClientKey + "/Price").set(Price);
-  database.ref("Cart/" + newClientKey + "/pName").set(pName);
-  database.ref("Cart/" + newClientKey + "/quantity").set(quantity);
-  alert("Done!");
+  database.ref("Cart/" + Sku + "/Brand").set(Brand);
+  database.ref("Cart/" + Sku + "/Category").set(Category);
+  database.ref("Cart/" + Sku + "/Sku").set(Sku);
+  database.ref("Cart/" + Sku + "/Price").set(Price);
+  database.ref("Cart/" + Sku + "/pName").set(pName);
+  database.ref("Cart/" + Sku + "/quantity").set(quantity);
+  alert(quantity);
 });
 
-//בכל לחיצה להוסיף לאותה עגלה ולא לפתוח ילד חדש
-admin
-  .auth()
-  .createUser({
-    email: "user@example.com",
-    emailVerified: false,
-    phoneNumber: "+11234567890",
-    password: "secretPassword",
-    displayName: "John Doe",
-    photoURL: "http://www.example.com/12345678/photo.png",
-    disabled: false,
-  })
-  .then(function (userRecord) {
-    // See the UserRecord reference doc for the contents of userRecord.
-    console.log("Successfully created new user:", userRecord.uid);
-  })
-  .catch(function (error) {
-    console.log("Error creating new user:", error);
-  });
+// admin
+//   .auth()
+//   .createUser({
+//     email: "user@example.com",
+//     emailVerified: false,
+//     phoneNumber: "+11234567890",
+//     password: "secretPassword",
+//     displayName: "John Doe",
+//     photoURL: "http://www.example.com/12345678/photo.png",
+//     disabled: false,
+//   })
+//   .then(function (userRecord) {
+//     // See the UserRecord reference doc for the contents of userRecord.
+//     console.log("Successfully created new user:", userRecord.uid);
+//   })
+//   .catch(function (error) {
+//     console.log("Error creating new user:", error);
+//   });
