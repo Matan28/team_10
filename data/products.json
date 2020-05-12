@@ -1,0 +1,147 @@
+{
+  "products": [
+    {
+      "brand": "Coca Cola",
+      "category": "drinkes",
+      "id": 1,
+      "name": "Cola 1.5l",
+      "price": 4,
+      "quantity": 0,
+      "sale": 0.5,
+      "thumbnail_url": "https://www.gm-tasty-trading.com/wp-content/uploads/2019/10/cocacola-15l.jpg",
+      "totalQuantity": 1000
+    },
+    {
+      "brand": "Coca Cola",
+      "category": "drinkes",
+      "id": 2,
+      "name": "Cola Zero 1.5l",
+      "price": 4,
+      "quantity": 0,
+      "sale": 0.5,
+      "thumbnail_url": "https://storage.googleapis.com/sp-public/gs1-products/1062/large/7290008909860.jpg",
+      "totalQuantity": 1000
+    },
+    {
+      "brand": "Sugat",
+      "category": "sugar",
+      "id": 3,
+      "name": "Sugar 1kg",
+      "price": 1,
+      "quantity": 0,
+      "sale": 1,
+      "thumbnail_url": "https://m.pricez.co.il/ProductPictures/7290000211503.jpg",
+      "totalQuantity": 1000
+    },
+    {
+      "brand": "Salit",
+      "category": "salt",
+      "id": 4,
+      "name": "Salt 1kg",
+      "price": 1.0,
+      "quantity": 0,
+      "sale": 1,
+      "thumbnail_url": "https://www.salt.co.il/wp-content/uploads/2014/09/%D7%A1%D7%9C%D7%99%D7%AA-%D7%9E%D7%9C%D7%97-%D7%A9%D7%95%D7%9C%D7%97%D7%9F-%D7%9E%D7%A2%D7%95%D7%9C%D7%94-1.png",
+      "totalQuantity": 1000
+    },
+    {
+      "brand": "Etz Hazait",
+      "category": "oil",
+      "id": 5,
+      "name": "Canola Oil 1l",
+      "price": 5,
+      "quantity": 0,
+      "sale": 1,
+      "thumbnail_url": "https://m.pricez.co.il/ProductPictures/7290000144474.jpg",
+      "totalQuantity": 1000
+    },
+    {
+      "brand": "Fuze Tea",
+      "category": "drinkes",
+      "id": 6,
+      "name": "Fuze-Tea Peach 1.5l",
+      "price": 5.0,
+      "quantity": 0,
+      "sale": 1,
+      "thumbnail_url": "https://m.ebag.bg/en/product/535999/images/0/800",
+      "totalQuantity": 1000
+    },
+    {
+      "brand": "Prigat",
+      "category": "drinkes",
+      "id": 7,
+      "name": "Banana Strawberry Juice 1.5l",
+      "price": 5,
+      "quantity": 0,
+      "sale": 1,
+      "thumbnail_url": "https://www.caveret.org/media/catalog/product/cache/6/image/384x384/e9c3970ab036de70892d86c6d221abfe/3/6/3667369_4.jpg",
+      "totalQuantity": 1000
+    },
+    {
+      "brand": "Prigat",
+      "category": "drinkes",
+      "id": 8,
+      "name": "Orange Juice 1.5l",
+      "price": 5,
+      "quantity": 0,
+      "sale": 1,
+      "thumbnail_url": "https://cdn-cms.f-static.net/uploads/1087315/800_5aea19fddddc1.jpg",
+      "totalQuantity": 1000
+    },
+    {
+      "brand": "Kinder",
+      "category": "sweets",
+      "id": 9,
+      "name": "Kinder Bueno",
+      "price": 3,
+      "quantity": 0,
+      "sale": 1,
+      "thumbnail_url": "https://www.kinder.com/au/s3fs-media/kinder_au/public/2019-10/snack-chocolate-bar-kinder-bueno-pack.png",
+      "totalQuantity": 1000
+    },
+    {
+      "brand": "Kinder",
+      "category": "sweets",
+      "id": 10,
+      "name": "Kinder Suprise Egg (3 pack)",
+      "price": 10,
+      "quantity": 0,
+      "sale": 1,
+      "thumbnail_url": "https://www.bigw.com.au/medias/sys_master/images/images/h1e/h21/13673898934302.jpg",
+      "totalQuantity": 1000
+    },
+    {
+      "brand": "Heinz",
+      "category": "sauces",
+      "id": 11,
+      "name": "Mayonnaise 397g",
+      "price": 11,
+      "quantity": 0,
+      "sale": 1,
+      "thumbnail_url": "https://digitalcontent.api.tesco.com/v2/media/ghs/365bf7b2-0671-4ee9-ad2b-d900aeb59faa/snapshotimagehandler_1155960422.jpeg",
+      "totalQuantity": 1000
+    },
+    {
+      "brand": "Heinz",
+      "category": "sauces",
+      "id": 12,
+      "name": "Tomato Ketchup 375ml",
+      "price": 10,
+      "quantity": 0,
+      "sale": 1,
+      "thumbnail_url": "https://i5.walmartimages.ca/images/Enlarge/_96/737/96737.jpg",
+      "totalQuantity": 1000
+    },
+    {
+      "brand": "Heinz",
+      "category": "sauces",
+      "id": 13,
+      "name": "Mayochup 397g",
+      "price": 12,
+      "quantity": 0,
+      "sale": 1,
+      "thumbnail_url": "https://media.sultan-center.com/media/catalog/product/cache/image/700x560/e9c3970ab036de70892d86c6d221abfe/3/0/302565875.jpg",
+      "totalQuantity": 1000
+    }
+  ]
+}

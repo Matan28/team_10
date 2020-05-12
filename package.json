@@ -1,43 +1,53 @@
 {
-  "name": "team_10",
-  "version": "1.0.0",
-  "description": "sce website\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Ddigital store website",
-  "main": "index.js",
+  "name": "vuejs-shopping-card-cli3",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "nodemon src/index.js",
-    "test": "mocha test/*.spec.js --color",
-    "lint": "eslint src/*.js --color",
-    "start": "node src/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/Matan28/team_10.git"
-  },
-  "author": "Matan, Liz, Aviad, Michael",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Matan28/team_10/issues"
-  },
-  "homepage": "https://github.com/Matan28/team_10#readme",
-  "devDependencies": {
-    "@types/chai": "^4.2.11",
-    "@types/mocha": "^7.0.2",
-    "chai": "^4.2.0",
-    "eslint": "^6.8.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-standard": "^4.0.1",
-    "eslint-plugin-vue": "^6.2.2",
-    "mocha": "^7.1.2",
-    "nodemon": "^2.0.3"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "bootstrap": "^4.3.1",
+    "core-js": "^3.6.5",
+    "firebase": "^7.14.1",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.6",
+    "vue-spinner": "^1.0.3",
+    "vuex": "^3.1.0"
   },
-  "directories": {
-    "test": "test"
-  }
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.3.0",
+    "@vue/cli-plugin-eslint": "^4.3.0",
+    "@vue/cli-service": "^4.3.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }
